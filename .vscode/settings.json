@@ -1,0 +1,7 @@
+{
+    "git.allowForcePush": true,
+    "git.allowNoVerifyCommit": true,
+    "git.enableCommitSigning": true,
+    "git.branchRandomName.enable": true,
+    "git.enableSmartCommit": true
+}

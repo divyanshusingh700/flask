@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+    <title>download machesfashion and ssense farfetch</title>
+  </head>
+  <body>
+    <h1>Download your CSV file</h1>
+        {% for filename in files %}
+        <a href="{{ url_for('download_file', filename=filename) }}">{{ filename }}</a><br />
+        {% endfor %}
+  </body>
+</html>
