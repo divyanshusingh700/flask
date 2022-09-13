@@ -77,6 +77,7 @@ Once we have our requirements.txt file inside the image, we can use the RUN comm
 RUN pip3 install -r requirements.txt
 ```
 The EXPOSE command tells the image to run at the passed parameter port.
+
 ```bash
 EXPOSE 5000
 ```
